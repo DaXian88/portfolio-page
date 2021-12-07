@@ -58,6 +58,36 @@ textarea {
   src: url("./assets/fonts/RobotoSlab-Medium.ttf");
 }
 
+h1,
+h2,
+h3,
+h4 {
+  color: var(--primary);
+  font-weight: normal;
+}
+
+p,
+a,
+li {
+  color: var(--primary);
+}
+
+h1,
+h3 {
+  font-size: 1.2em;
+}
+
+h2 {
+  font-size: 1.6em;
+}
+
+h4 {
+  font-size: 1.1em;
+}
+
+.leading {
+  font-size: 1.1em;
+}
 /* mobile styles */
 
 /* small tablet styles */
@@ -68,9 +98,15 @@ textarea {
 /* large tablets & laptops */
 
 @media screen and (min-width: 960px) {
+  body {
+    font-size: 18px;
+  }
 }
 
 /* desktop styles */
 
 @media screen and (min-width: 1200px) {
+  body {
+    font-size: 20px;
+  }
 }
