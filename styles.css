@@ -1,0 +1,76 @@
+/* variables */
+
+:root {
+  --primary: #0f427d;
+  --secondary: #ebf3fc;
+}
+
+/* reset */
+body,
+p,
+a,
+ul,
+li {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+li {
+  list-style-type: none;
+}
+
+/* base styles */
+body {
+  background: var(--secondary);
+  overflow-x: hidden;
+  font-family: "Roboto Slab Medium";
+}
+
+.button {
+  background: none;
+  border: 2px solid var(--primary);
+  color: var(--primary);
+  padding: 6px 12px;
+  border-radius: 20px;
+  text-transform: uppercase;
+  box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.6);
+  display: inline-block;
+}
+
+.button:hover {
+  color: #ffffff;
+  background: var(--primary);
+}
+
+input,
+textarea {
+  background: rgba(255, 255, 255, 0.05);
+  padding: 10px 16px;
+  border: 2px solid var(--primary);
+  border-radius: 20px;
+  color: #0e1d70;
+}
+
+/* fonts */
+
+@font-face {
+  font-family: "Roboto Slab Medium";
+  src: url("./assets/fonts/RobotoSlab-Medium.ttf");
+}
+
+/* mobile styles */
+
+/* small tablet styles */
+
+@media screen and (min-width: 620px) {
+}
+
+/* large tablets & laptops */
+
+@media screen and (min-width: 960px) {
+}
+
+/* desktop styles */
+
+@media screen and (min-width: 1200px) {
+}
